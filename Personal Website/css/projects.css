@@ -1,0 +1,68 @@
+
+
+body {
+    margin: 0;
+    background-color: pink;
+    text-align: center;
+}
+
+header {
+    background-image: url(pattern.png);
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+#banner-text {
+    font-size: 50px;
+    text-shadow: 2px;
+    text-shadow: black;
+    text-align: center;
+    align-items: center;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+img { 
+    max-width: 40%;
+    max-height: 40%;
+    margin: 0;
+    display: flex;
+    float: left;
+}
+
+nav {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    float: right;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
